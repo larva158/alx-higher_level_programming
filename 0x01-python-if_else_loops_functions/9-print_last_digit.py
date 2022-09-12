@@ -4,7 +4,7 @@ def print_last_digit(number):
     return number
 
 
-print(print_last_digit(56), end='')
-print(print_last_digit(56), end='')
-print(print_last_digit(56), end='')
+print(print_last_digit(98), end='')
 print(print_last_digit(0), end='')
+r = print_last_digit(-1024)
+print(r)
