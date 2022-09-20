@@ -8,9 +8,3 @@ def print_last_digit(number):
         lst_number = number % 10
     print(f"{lst_number}", end="")
     return lst_number
-
-
-print_last_digit(98)
-print_last_digit(0)
-r = print_last_digit(-1024)
-print(r)
